@@ -2,8 +2,6 @@ import tkinter
 import pymysql
 import tkinter.messagebox
 import tkinter.simpledialog
-from tensorflow.contrib.framework.python.ops.variables import variable
-from idlelib import query
 class dbop:
     def __init__(self,db):
         self.db=db
